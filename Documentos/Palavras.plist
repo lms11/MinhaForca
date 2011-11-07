@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>categorias</key>
+	<array>
+		<dict>
+			<key>palavras</key>
+			<array>
+				<string>Maca</string>
+				<string>Pessego</string>
+				<string>Pera</string>
+				<string>Banana</string>
+				<string>Mamao</string>
+				<string>Goiaba</string>
+				<string>Melancia</string>
+				<string>Uva</string>
+				<string>Abacaxi</string>
+				<string>Manga</string>
+			</array>
+			<key>nome</key>
+			<string>Frutas</string>
+		</dict>
+		<dict>
+			<key>palavras</key>
+			<array>
+				<string>Cachorro</string>
+				<string>Gato</string>
+				<string>Rato</string>
+				<string>Baleia</string>
+				<string>Macaco</string>
+				<string>Leão</string>
+				<string>Leopardo</string>
+				<string>Papagaio</string>
+				<string>Lagartixa</string>
+				<string>Qual seu Número?</string>
+			</array>
+			<key>nome</key>
+			<string>Animais</string>
+		</dict>
+		<dict>
+			<key>palavras</key>
+			<array>
+				<string>A Pele que Habito</string>
+				<string>Amizade Colorida</string>
+				<string>Atividade Paranormal 3</string>
+				<string>Contágio</string>
+				<string>Diário De Um Banana 2: Rodrick é o Cara</string>
+				<string>Gigantes de Aço</string>
+				<string>O Palhaço</string>
+				<string>O Retorno de Jhonny English</string>
+				<string>O Zelador Animal</string>
+				<string>Os Três Mosqueteiros 3D</string>
+				<string>Palavra Cantada 3D</string>
+				<string>Qual seu Número?</string>
+			</array>
+			<key>nome</key>
+			<string>Filmes em cartaz</string>
+		</dict>
+		<dict>
+			<key>palavras</key>
+			<array>
+				<string>Corinthians</string>
+				<string>Vasco</string>
+				<string>Botafogo</string>
+				<string>Fluminense</string>
+				<string>Flamengo</string>
+				<string>Internacional</string>
+				<string>São Paulo</string>
+				<string>Figueirense</string>
+				<string>Grêmio</string>
+				<string>Santos</string>
+				<string>Coritiba</string>
+				<string>Atlético Goianiense</string>
+				<string>Palmeiras</string>
+				<string>Atlético Mineiro</string>
+				<string>Bahia</string>
+				<string>Cruzeiro</string>
+				<string>Ceará</string>
+				<string>Atlético Paranaense</string>
+				<string>Avaí</string>
+				<string>América Mineiro</string>
+			</array>
+			<key>nome</key>
+			<string>Times de futebol</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28266A01465B9EF00EDD0F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F282669F1465B9EF00EDD0F8 /* UIKit.framework */; };
+		F28266A21465B9EF00EDD0F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28266A11465B9EF00EDD0F8 /* Foundation.framework */; };
+		F28266A41465B9EF00EDD0F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28266A31465B9EF00EDD0F8 /* CoreGraphics.framework */; };
+		F28266AA1465B9EF00EDD0F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F28266A81465B9EF00EDD0F8 /* InfoPlist.strings */; };
+		F28266AC1465B9EF00EDD0F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28266AB1465B9EF00EDD0F8 /* main.m */; };
+		F28266B01465B9EF00EDD0F8 /* LMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F28266AF1465B9EF00EDD0F8 /* LMAppDelegate.m */; };
+		F28266B31465B9EF00EDD0F8 /* LMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28266B21465B9EF00EDD0F8 /* LMViewController.m */; };
+		F28266B61465B9EF00EDD0F8 /* LMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28266B41465B9EF00EDD0F8 /* LMViewController.xib */; };
+		F28266BF1465BA0800EDD0F8 /* Palavras.plist in Resources */ = {isa = PBXBuildFile; fileRef = F28266BE1465BA0800EDD0F8 /* Palavras.plist */; };
+		F28266D01465BA4500EDD0F8 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C11465BA4500EDD0F8 /* Background.png */; };
+		F28266D11465BA4500EDD0F8 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C21465BA4500EDD0F8 /* Background@2x.png */; };
+		F28266D21465BA4500EDD0F8 /* Chance0.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C31465BA4500EDD0F8 /* Chance0.png */; };
+		F28266D31465BA4500EDD0F8 /* Chance0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C41465BA4500EDD0F8 /* Chance0@2x.png */; };
+		F28266D41465BA4500EDD0F8 /* Chance1.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C51465BA4500EDD0F8 /* Chance1.png */; };
+		F28266D51465BA4500EDD0F8 /* Chance1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C61465BA4500EDD0F8 /* Chance1@2x.png */; };
+		F28266D61465BA4500EDD0F8 /* Chance2.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C71465BA4500EDD0F8 /* Chance2.png */; };
+		F28266D71465BA4500EDD0F8 /* Chance2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C81465BA4500EDD0F8 /* Chance2@2x.png */; };
+		F28266D81465BA4500EDD0F8 /* Chance3.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266C91465BA4500EDD0F8 /* Chance3.png */; };
+		F28266D91465BA4500EDD0F8 /* Chance3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266CA1465BA4500EDD0F8 /* Chance3@2x.png */; };
+		F28266DA1465BA4500EDD0F8 /* Chance4.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266CB1465BA4500EDD0F8 /* Chance4.png */; };
+		F28266DB1465BA4500EDD0F8 /* Chance4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266CC1465BA4500EDD0F8 /* Chance4@2x.png */; };
+		F28266DC1465BA4500EDD0F8 /* Icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266CD1465BA4500EDD0F8 /* Icon512.png */; };
+		F28266DD1465BA4500EDD0F8 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266CE1465BA4500EDD0F8 /* Logo.png */; };
+		F28266DE1465BA4500EDD0F8 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28266CF1465BA4500EDD0F8 /* Logo@2x.png */; };
+		F28266E21465BA5000EDD0F8 /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F28266E11465BA5000EDD0F8 /* GameCenterManager.m */; };
+		F28266E81465BB5500EDD0F8 /* LMNovoJogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28266E61465BB5500EDD0F8 /* LMNovoJogoViewController.m */; };
+		F28266E91465BB5500EDD0F8 /* LMNovoJogoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28266E71465BB5500EDD0F8 /* LMNovoJogoViewController.xib */; };
+		F28266EB1465BCFA00EDD0F8 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28266EA1465BCFA00EDD0F8 /* GameKit.framework */; };
+		F28266EF1465BE7500EDD0F8 /* LMForcaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28266ED1465BE7500EDD0F8 /* LMForcaViewController.m */; };
+		F28266F01465BE7500EDD0F8 /* LMForcaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28266EE1465BE7500EDD0F8 /* LMForcaViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F282669B1465B9EF00EDD0F8 /* MinhaForca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhaForca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F282669F1465B9EF00EDD0F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F28266A11465B9EF00EDD0F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F28266A31465B9EF00EDD0F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F28266A71465B9EF00EDD0F8 /* MinhaForca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinhaForca-Info.plist"; sourceTree = "<group>"; };
+		F28266A91465B9EF00EDD0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F28266AB1465B9EF00EDD0F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F28266AD1465B9EF00EDD0F8 /* MinhaForca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinhaForca-Prefix.pch"; sourceTree = "<group>"; };
+		F28266AE1465B9EF00EDD0F8 /* LMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAppDelegate.h; sourceTree = "<group>"; };
+		F28266AF1465B9EF00EDD0F8 /* LMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAppDelegate.m; sourceTree = "<group>"; };
+		F28266B11465B9EF00EDD0F8 /* LMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMViewController.h; sourceTree = "<group>"; };
+		F28266B21465B9EF00EDD0F8 /* LMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMViewController.m; sourceTree = "<group>"; };
+		F28266B51465B9EF00EDD0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LMViewController.xib; sourceTree = "<group>"; };
+		F28266BE1465BA0800EDD0F8 /* Palavras.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Palavras.plist; sourceTree = "<group>"; };
+		F28266C11465BA4500EDD0F8 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		F28266C21465BA4500EDD0F8 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		F28266C31465BA4500EDD0F8 /* Chance0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chance0.png; sourceTree = "<group>"; };
+		F28266C41465BA4500EDD0F8 /* Chance0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chance0@2x.png"; sourceTree = "<group>"; };
+		F28266C51465BA4500EDD0F8 /* Chance1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chance1.png; sourceTree = "<group>"; };
+		F28266C61465BA4500EDD0F8 /* Chance1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chance1@2x.png"; sourceTree = "<group>"; };
+		F28266C71465BA4500EDD0F8 /* Chance2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chance2.png; sourceTree = "<group>"; };
+		F28266C81465BA4500EDD0F8 /* Chance2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chance2@2x.png"; sourceTree = "<group>"; };
+		F28266C91465BA4500EDD0F8 /* Chance3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chance3.png; sourceTree = "<group>"; };
+		F28266CA1465BA4500EDD0F8 /* Chance3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chance3@2x.png"; sourceTree = "<group>"; };
+		F28266CB1465BA4500EDD0F8 /* Chance4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chance4.png; sourceTree = "<group>"; };
+		F28266CC1465BA4500EDD0F8 /* Chance4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chance4@2x.png"; sourceTree = "<group>"; };
+		F28266CD1465BA4500EDD0F8 /* Icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon512.png; sourceTree = "<group>"; };
+		F28266CE1465BA4500EDD0F8 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		F28266CF1465BA4500EDD0F8 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
+		F28266DF1465BA5000EDD0F8 /* AppSpecificValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSpecificValues.h; sourceTree = "<group>"; };
+		F28266E01465BA5000EDD0F8 /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		F28266E11465BA5000EDD0F8 /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
+		F28266E51465BB5500EDD0F8 /* LMNovoJogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNovoJogoViewController.h; sourceTree = "<group>"; };
+		F28266E61465BB5500EDD0F8 /* LMNovoJogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNovoJogoViewController.m; sourceTree = "<group>"; };
+		F28266E71465BB5500EDD0F8 /* LMNovoJogoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMNovoJogoViewController.xib; sourceTree = "<group>"; };
+		F28266EA1465BCFA00EDD0F8 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		F28266EC1465BE7400EDD0F8 /* LMForcaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMForcaViewController.h; sourceTree = "<group>"; };
+		F28266ED1465BE7500EDD0F8 /* LMForcaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMForcaViewController.m; sourceTree = "<group>"; };
+		F28266EE1465BE7500EDD0F8 /* LMForcaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMForcaViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28266981465B9EF00EDD0F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28266EB1465BCFA00EDD0F8 /* GameKit.framework in Frameworks */,
+				F28266A01465B9EF00EDD0F8 /* UIKit.framework in Frameworks */,
+				F28266A21465B9EF00EDD0F8 /* Foundation.framework in Frameworks */,
+				F28266A41465B9EF00EDD0F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28266901465B9EF00EDD0F8 = {
+			isa = PBXGroup;
+			children = (
+				F28266A51465B9EF00EDD0F8 /* MinhaForca */,
+				F282669E1465B9EF00EDD0F8 /* Frameworks */,
+				F282669C1465B9EF00EDD0F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F282669C1465B9EF00EDD0F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F282669B1465B9EF00EDD0F8 /* MinhaForca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F282669E1465B9EF00EDD0F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F28266EA1465BCFA00EDD0F8 /* GameKit.framework */,
+				F282669F1465B9EF00EDD0F8 /* UIKit.framework */,
+				F28266A11465B9EF00EDD0F8 /* Foundation.framework */,
+				F28266A31465B9EF00EDD0F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F28266A51465B9EF00EDD0F8 /* MinhaForca */ = {
+			isa = PBXGroup;
+			children = (
+				F28266E41465BB3700EDD0F8 /* XIBs */,
+				F28266E31465BB3000EDD0F8 /* ViewControllers */,
+				F28266BD1465B9FB00EDD0F8 /* GKTapper */,
+				F28266AE1465B9EF00EDD0F8 /* LMAppDelegate.h */,
+				F28266AF1465B9EF00EDD0F8 /* LMAppDelegate.m */,
+				F28266A61465B9EF00EDD0F8 /* Supporting Files */,
+			);
+			path = MinhaForca;
+			sourceTree = "<group>";
+		};
+		F28266A61465B9EF00EDD0F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28266BC1465B9F600EDD0F8 /* imagens */,
+				F28266BE1465BA0800EDD0F8 /* Palavras.plist */,
+				F28266A71465B9EF00EDD0F8 /* MinhaForca-Info.plist */,
+				F28266A81465B9EF00EDD0F8 /* InfoPlist.strings */,
+				F28266AB1465B9EF00EDD0F8 /* main.m */,
+				F28266AD1465B9EF00EDD0F8 /* MinhaForca-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F28266BC1465B9F600EDD0F8 /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				F28266C11465BA4500EDD0F8 /* Background.png */,
+				F28266C21465BA4500EDD0F8 /* Background@2x.png */,
+				F28266C31465BA4500EDD0F8 /* Chance0.png */,
+				F28266C41465BA4500EDD0F8 /* Chance0@2x.png */,
+				F28266C51465BA4500EDD0F8 /* Chance1.png */,
+				F28266C61465BA4500EDD0F8 /* Chance1@2x.png */,
+				F28266C71465BA4500EDD0F8 /* Chance2.png */,
+				F28266C81465BA4500EDD0F8 /* Chance2@2x.png */,
+				F28266C91465BA4500EDD0F8 /* Chance3.png */,
+				F28266CA1465BA4500EDD0F8 /* Chance3@2x.png */,
+				F28266CB1465BA4500EDD0F8 /* Chance4.png */,
+				F28266CC1465BA4500EDD0F8 /* Chance4@2x.png */,
+				F28266CD1465BA4500EDD0F8 /* Icon512.png */,
+				F28266CE1465BA4500EDD0F8 /* Logo.png */,
+				F28266CF1465BA4500EDD0F8 /* Logo@2x.png */,
+			);
+			name = imagens;
+			sourceTree = "<group>";
+		};
+		F28266BD1465B9FB00EDD0F8 /* GKTapper */ = {
+			isa = PBXGroup;
+			children = (
+				F28266DF1465BA5000EDD0F8 /* AppSpecificValues.h */,
+				F28266E01465BA5000EDD0F8 /* GameCenterManager.h */,
+				F28266E11465BA5000EDD0F8 /* GameCenterManager.m */,
+			);
+			name = GKTapper;
+			sourceTree = "<group>";
+		};
+		F28266E31465BB3000EDD0F8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F28266B11465B9EF00EDD0F8 /* LMViewController.h */,
+				F28266B21465B9EF00EDD0F8 /* LMViewController.m */,
+				F28266E51465BB5500EDD0F8 /* LMNovoJogoViewController.h */,
+				F28266E61465BB5500EDD0F8 /* LMNovoJogoViewController.m */,
+				F28266EC1465BE7400EDD0F8 /* LMForcaViewController.h */,
+				F28266ED1465BE7500EDD0F8 /* LMForcaViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F28266E41465BB3700EDD0F8 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				F28266B41465B9EF00EDD0F8 /* LMViewController.xib */,
+				F28266E71465BB5500EDD0F8 /* LMNovoJogoViewController.xib */,
+				F28266EE1465BE7500EDD0F8 /* LMForcaViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F282669A1465B9EF00EDD0F8 /* MinhaForca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28266B91465B9EF00EDD0F8 /* Build configuration list for PBXNativeTarget "MinhaForca" */;
+			buildPhases = (
+				F28266971465B9EF00EDD0F8 /* Sources */,
+				F28266981465B9EF00EDD0F8 /* Frameworks */,
+				F28266991465B9EF00EDD0F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinhaForca;
+			productName = MinhaForca;
+			productReference = F282669B1465B9EF00EDD0F8 /* MinhaForca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28266921465B9EF00EDD0F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F28266951465B9EF00EDD0F8 /* Build configuration list for PBXProject "MinhaForca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F28266901465B9EF00EDD0F8;
+			productRefGroup = F282669C1465B9EF00EDD0F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F282669A1465B9EF00EDD0F8 /* MinhaForca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28266991465B9EF00EDD0F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28266AA1465B9EF00EDD0F8 /* InfoPlist.strings in Resources */,
+				F28266B61465B9EF00EDD0F8 /* LMViewController.xib in Resources */,
+				F28266BF1465BA0800EDD0F8 /* Palavras.plist in Resources */,
+				F28266D01465BA4500EDD0F8 /* Background.png in Resources */,
+				F28266D11465BA4500EDD0F8 /* Background@2x.png in Resources */,
+				F28266D21465BA4500EDD0F8 /* Chance0.png in Resources */,
+				F28266D31465BA4500EDD0F8 /* Chance0@2x.png in Resources */,
+				F28266D41465BA4500EDD0F8 /* Chance1.png in Resources */,
+				F28266D51465BA4500EDD0F8 /* Chance1@2x.png in Resources */,
+				F28266D61465BA4500EDD0F8 /* Chance2.png in Resources */,
+				F28266D71465BA4500EDD0F8 /* Chance2@2x.png in Resources */,
+				F28266D81465BA4500EDD0F8 /* Chance3.png in Resources */,
+				F28266D91465BA4500EDD0F8 /* Chance3@2x.png in Resources */,
+				F28266DA1465BA4500EDD0F8 /* Chance4.png in Resources */,
+				F28266DB1465BA4500EDD0F8 /* Chance4@2x.png in Resources */,
+				F28266DC1465BA4500EDD0F8 /* Icon512.png in Resources */,
+				F28266DD1465BA4500EDD0F8 /* Logo.png in Resources */,
+				F28266DE1465BA4500EDD0F8 /* Logo@2x.png in Resources */,
+				F28266E91465BB5500EDD0F8 /* LMNovoJogoViewController.xib in Resources */,
+				F28266F01465BE7500EDD0F8 /* LMForcaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28266971465B9EF00EDD0F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28266AC1465B9EF00EDD0F8 /* main.m in Sources */,
+				F28266B01465B9EF00EDD0F8 /* LMAppDelegate.m in Sources */,
+				F28266B31465B9EF00EDD0F8 /* LMViewController.m in Sources */,
+				F28266E21465BA5000EDD0F8 /* GameCenterManager.m in Sources */,
+				F28266E81465BB5500EDD0F8 /* LMNovoJogoViewController.m in Sources */,
+				F28266EF1465BE7500EDD0F8 /* LMForcaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F28266A81465B9EF00EDD0F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28266A91465B9EF00EDD0F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F28266B41465B9EF00EDD0F8 /* LMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28266B51465B9EF00EDD0F8 /* en */,
+			);
+			name = LMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28266B71465B9EF00EDD0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F28266B81465B9EF00EDD0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28266BA1465B9EF00EDD0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinhaForca/MinhaForca-Prefix.pch";
+				INFOPLIST_FILE = "MinhaForca/MinhaForca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F28266BB1465B9EF00EDD0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinhaForca/MinhaForca-Prefix.pch";
+				INFOPLIST_FILE = "MinhaForca/MinhaForca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28266951465B9EF00EDD0F8 /* Build configuration list for PBXProject "MinhaForca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28266B71465B9EF00EDD0F8 /* Debug */,
+				F28266B81465B9EF00EDD0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28266B91465B9EF00EDD0F8 /* Build configuration list for PBXNativeTarget "MinhaForca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28266BA1465B9EF00EDD0F8 /* Debug */,
+				F28266BB1465B9EF00EDD0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28266921465B9EF00EDD0F8 /* Project object */;
+}
